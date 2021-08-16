@@ -1,0 +1,18 @@
+:root {
+  --PrimeFont: "Intro Book";
+  --SecondFont: "Intro Regular";
+  --ThirtFont: "Intro Black regular";
+  --FsizeCardTitle: 16px;
+  --FsizeCardSubTitle: 14px;
+  --greyTextColor: #676f77;
+  --whiteTextColor: #ffffff;
+  --orangeTextColor: #e56e00;
+  --redTextColor: #ff0000;
+  --greenTextColor: #1bc80c;
+  --fontWeithBold: 700;
+  --borderRadius: 4px;
+  --basketBackground: #e4e8ec;
+  --bascketBackgroundHover: linear-gradient(90deg, #ee6409 0%, #f77d0c 100%),
+    #ed6109;
+  --hoverLineBorder: 3px solid #ee6409;
+}

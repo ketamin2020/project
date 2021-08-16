@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Intro Regular";
+  src: url("../fonts/Intro\ Regular.otf");
+}
+@font-face {
+  font-family: "Intro Light";
+  src: url("../fonts/Intro\ Light\ Regular.otf");
+}
+@font-face {
+  font-family: "Intro Book regular";
+  src: url("../fonts/Intro\ Book\ Regular.woff2");
+}
+@font-face {
+  font-family: "Intro Black regular";
+  src: url("../fonts/Intro\ Black\ Regular.otf");
+}
+@font-face {
+  font-family: "Intro Book";
+  src: url("../fonts/00884e3dc954fcc592c35ed58e578e11.eot"),
+    url("../fonts/00884e3dc954fcc592c35ed58e578e11.ttf"),
+    url("../fonts/00884e3dc954fcc592c35ed58e578e11.woff"),
+    url("../fonts/00884e3dc954fcc592c35ed58e578e11.woff2");
+}
