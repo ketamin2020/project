@@ -1,0 +1,30 @@
+.nav {
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  .nav {
+    display: unset;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 32px;
+    background-color: var(--NavBarBackround);
+  }
+  .linkListItems {
+    display: flex;
+  }
+  .linkItem {
+    padding: 6px 20px;
+  }
+  .link {
+    font-family: var(--PrimeFont);
+    color: var(--NavBarLinkColor);
+    font-size: 13px;
+  }
+  .phoneLink {
+    font-family: var(--PrimeFont);
+    color: white;
+  }
+}
