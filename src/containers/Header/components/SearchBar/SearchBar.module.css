@@ -1,0 +1,29 @@
+.searchBarContainer {
+  position: relative;
+}
+.searchInput {
+  display: block;
+  position: relative;
+  width: 454px;
+  height: 40px;
+  background-color: var(--searchInputBg);
+  border: none;
+  border-radius: 4px;
+  padding-left: 20px;
+  font-size: 16px;
+}
+.loupeSearch {
+  position: absolute;
+  background: url("../../../../images/header/loupe.svg");
+  width: 20px;
+  height: 20px;
+  right: 20px;
+  top: 10px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .searchInput {
+    width: 250px;
+  }
+}

@@ -1,0 +1,21 @@
+.busketWraper {
+  width: 120px;
+  height: 40px;
+  padding: 4px;
+  border: 1px solid #b6bec6;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.busketImage {
+  width: 20px;
+  height: 20px;
+}
+.busketPrice {
+  font-family: var(--PrimeFont);
+  font-size: 11px;
+  width: 70%;
+  height: 30px;
+  line-height: 35px;
+}
