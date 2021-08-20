@@ -1,0 +1,25 @@
+@media screen and (min-width: 801px) {
+  .headerMobileWraper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .headerMobileWraper {
+    display: unset;
+  }
+
+  .headerMobile {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid var(--searchInputBg);
+  }
+  .headerLogo {
+    width: 110px;
+    height: 48px;
+  }
+}

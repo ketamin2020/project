@@ -1,0 +1,58 @@
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  padding: 0 50px;
+}
+
+.mainNavLink {
+  font-family: var(--PrimeFont);
+  color: var(--MainNavLink);
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.mainNavLink:last-child {
+  color: var(--orangeTextColor);
+}
+.mainNavLink:last-child::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  background-image: url("../../../../images/header/paint.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 375px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--searchInputBg);
+  }
+
+  .mainNavLink::after {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    transform: rotate(-45deg);
+    margin-left: 6px;
+  }
+  .mainNavLink:last-child::after {
+    display: none;
+  }
+}

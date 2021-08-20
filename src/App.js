@@ -6,6 +6,7 @@ import data from "./context/dataForContext";
 import { BrowserRouter } from "react-router-dom";
 import SubHeaderNav from "./containers/SubHeaderNav/SubHeaderNav";
 import Header from "./containers/Header/Header";
+import HeaderMobile from "./containers/Header/HeaderMobile";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Layout>
             <SubHeaderNav />
             <Header />
+            <HeaderMobile />
           </Layout>
         </Context.Provider>
       </Suspense>
