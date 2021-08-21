@@ -7,6 +7,8 @@ import { BrowserRouter } from "react-router-dom";
 import SubHeaderNav from "./containers/SubHeaderNav/SubHeaderNav";
 import Header from "./containers/Header/Header";
 import HeaderMobile from "./containers/Header/HeaderMobile";
+import Slider from "./containers/Slider/Slider";
+import PopularItems from "./containers/PopularItems/PopularItems";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
             <SubHeaderNav />
             <Header />
             <HeaderMobile />
+            <Slider />
+            <PopularItems />
           </Layout>
         </Context.Provider>
       </Suspense>
