@@ -1,6 +1,13 @@
 import sliderMob from "../imagesDev/slider_mob.png";
 import sliderDesc from "../imagesDev/slider_desk.png";
 import card from "../imagesDev/card.png";
+import categories_1 from "../images/categories/categories_1.png";
+import categories_2 from "../images/categories/categories_2.png";
+import categories_3 from "../images/categories/categories_3.png";
+import categories_4 from "../images/categories/categories_4.png";
+import categories_5 from "../images/categories/categories_5.png";
+import categories_6 from "../images/categories/categories_6.png";
+
 const data = {
   navBarLink: [
     { linkName: "Магазины", path: "/store" },
@@ -85,6 +92,15 @@ const data = {
       oldPrice: 3000,
       price: 2500,
     },
+  ],
+
+  categoties: [
+    { title: "Чехлы", image: categories_1 },
+    { title: "Кабели и адаптеры", image: categories_2 },
+    { title: "Защитные стекла", image: categories_3 },
+    { title: "Наушники и колонки", image: categories_4 },
+    { title: "Повербанки", image: categories_5 },
+    { title: "Моноподы и штативы", image: categories_6 },
   ],
 };
 export default data;

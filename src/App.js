@@ -9,6 +9,7 @@ import Header from "./containers/Header/Header";
 import HeaderMobile from "./containers/Header/HeaderMobile";
 import Slider from "./containers/Slider/Slider";
 import PopularItems from "./containers/PopularItems/PopularItems";
+import AllCategories from "./containers/AllCaregories/AllCategories";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
             <HeaderMobile />
             <Slider />
             <PopularItems />
+            <AllCategories />
           </Layout>
         </Context.Provider>
       </Suspense>
