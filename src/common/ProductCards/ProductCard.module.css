@@ -1,3 +1,44 @@
 .productCard {
+  position: relative;
   height: 465px;
+  width: 264px;
+  padding: 0 10px;
+  font-family: var(--PrimeFont);
+  font-style: normal;
+  /* box-shadow: 0px 12px 88px rgba(76, 81, 96, 0.16); */
+  border-radius: 6px;
+  background-color: white;
+}
+
+.productName {
+  color: var(--cardTitle);
+  font-size: 18px;
+  width: 200px;
+  margin: 10px 0;
+}
+.productDescription {
+  color: var(--greyTextColor);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.productOldPrice {
+  color: var(--greyTextColor);
+  font-size: 12px;
+  text-decoration: line-through;
+}
+.productNewPrice {
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.productPanel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.productPrice {
+  display: flex;
+  flex-direction: column;
 }

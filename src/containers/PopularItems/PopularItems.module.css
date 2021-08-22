@@ -1,0 +1,54 @@
+.section {
+  padding: 20px 0;
+  width: 100%;
+}
+.sectionHeader {
+  text-align: center;
+}
+.changeItems {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+  margin: auto;
+  font-family: var(--PrimeFont);
+  font-size: 16px;
+}
+
+.changeNewItem,
+.changePopularItem {
+  padding: 10px;
+  border-bottom: 2px solid #e7430b;
+  cursor: pointer;
+}
+.sliderDots {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.sliderDots li {
+  padding: 12px;
+}
+
+.sliderDots li button {
+  background-color: #d0d0d0;
+  outline: none;
+  border: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+@media screen and (min-width: 800px) {
+  .sectionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+  }
+  .changeItems {
+    margin: 0;
+  }
+}

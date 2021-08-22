@@ -1,7 +1,6 @@
 :root {
   --PrimeFont: "Intro Book";
   --SecondFont: "Intro Regular";
-  --ThirtFont: "Intro Black regular";
   --FsizeCardTitle: 16px;
   --FsizeCardSubTitle: 14px;
   --sliderText: #fff;
@@ -20,4 +19,5 @@
   --bascketBackgroundHover: linear-gradient(90deg, #ee6409 0%, #f77d0c 100%),
     #ed6109;
   --hoverLineBorder: 3px solid #ee6409;
+  --cardTitle: #ee6409;
 }

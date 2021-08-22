@@ -10,11 +10,12 @@ const ProductCard = ({ image, title, subTitle, oldPrice, price }) => {
       <img src={image} alt="product" className={style.cardImage} />
       <h3 className={style.productName}> {title}</h3>
       <p className={style.productDescription}>{subTitle}</p>
-      <div className={style.productPrice}>
-        <span className={style.productOldPrice}>{oldPrice}</span>
-        <span className={style.productNewPrice}>{price}</span>
-      </div>
+
       <div className={style.productPanel}>
+        <div className={style.productPrice}>
+          <span className={style.productOldPrice}>{oldPrice} &#8381;</span>
+          <span className={style.productNewPrice}>{price} &#8381;</span>
+        </div>
         <CompareChevron width="20" height="20" classN={style.compareChevron} />
         <HeartChevron width="20" height="20" classN={style.heartChevron} />
         <ShopingBusketChevron
