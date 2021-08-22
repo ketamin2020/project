@@ -7,6 +7,9 @@ import categories_3 from "../images/categories/categories_3.png";
 import categories_4 from "../images/categories/categories_4.png";
 import categories_5 from "../images/categories/categories_5.png";
 import categories_6 from "../images/categories/categories_6.png";
+import cars from "../images/aboutService/cars.svg";
+import boxes from "../images/aboutService/boxes.svg";
+import managment from "../images/aboutService/management.svg";
 
 const data = {
   navBarLink: [
@@ -101,6 +104,24 @@ const data = {
     { title: "Наушники и колонки", image: categories_4 },
     { title: "Повербанки", image: categories_5 },
     { title: "Моноподы и штативы", image: categories_6 },
+  ],
+
+  outService: [
+    {
+      image: cars,
+      title: "Тщательно выбираем поставщиков",
+      text: "Мы являемся поставщиками самых качественных и разнообразных товаров от проверенных производителей со всего мира.",
+    },
+    {
+      image: boxes,
+      title: "С умом формируем ассортимент",
+      text: "В наличии — более чем 5000 различных наименований цифровых продуктов, а также всевозможные аксессуары ",
+    },
+    {
+      image: managment,
+      title: "Сотрудничаем с лучшими на рынке",
+      text: "Вас приятно удивят наши цены и возможность приобрести некоторые виды продукции оптом. ",
+    },
   ],
 };
 export default data;
