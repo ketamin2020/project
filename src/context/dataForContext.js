@@ -10,6 +10,10 @@ import categories_6 from "../images/categories/categories_6.png";
 import cars from "../images/aboutService/cars.svg";
 import boxes from "../images/aboutService/boxes.svg";
 import managment from "../images/aboutService/management.svg";
+import facebookIcon from "../images/footer/facebook.svg";
+import instagramIcon from "../images/footer/instagram.svg";
+import telegramIcon from "../images/footer/telegram.svg";
+import vkIcon from "../images/footer/vkontakte.svg";
 
 const data = {
   navBarLink: [
@@ -122,6 +126,45 @@ const data = {
       title: "Сотрудничаем с лучшими на рынке",
       text: "Вас приятно удивят наши цены и возможность приобрести некоторые виды продукции оптом. ",
     },
+  ],
+
+  footer: {
+    products: {
+      title: "Продукция",
+      links: [
+        { linkName: "Каталог", path: "/" },
+        { linkName: "Конструктор чехлов", path: "/" },
+        { linkName: "Новинки", path: "/" },
+        { linkName: "Акции", path: "/" },
+      ],
+    },
+    information: {
+      title: "Информация",
+      links: [
+        { linkName: "Адреса магазинов", path: "/" },
+        { linkName: "Доставка", path: "/" },
+        { linkName: "Оплата", path: "/" },
+        { linkName: "Сервис", path: "/" },
+        { linkName: "Возврат товара", path: "/" },
+      ],
+    },
+    companies: {
+      title: "Компания",
+      links: [
+        { linkName: "О нас", path: "/" },
+        { linkName: "Оптовикам", path: "/" },
+        { linkName: "Вакансии", path: "/" },
+        { linkName: "Контакты", path: "/" },
+        { linkName: "Публичная оферта", path: "/" },
+      ],
+    },
+  },
+
+  socialImage: [
+    { image: telegramIcon },
+    { image: facebookIcon },
+    { image: instagramIcon },
+    { image: vkIcon },
   ],
 };
 export default data;

@@ -11,6 +11,7 @@ import Slider from "./containers/Slider/Slider";
 import PopularItems from "./containers/PopularItems/PopularItems";
 import AllCategories from "./containers/AllCaregories/AllCategories";
 import AboutService from "./containers/AboutService/AboutService";
+import Footer from "./containers/Footer/Footer";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
             <PopularItems />
             <AllCategories />
             <AboutService />
+            <Footer />
           </Layout>
         </Context.Provider>
       </Suspense>
