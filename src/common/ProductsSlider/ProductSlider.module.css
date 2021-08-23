@@ -1,0 +1,67 @@
+.sliderDots {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.sliderDots li {
+  padding: 12px;
+}
+
+.sliderDots li button {
+  background-color: #d0d0d0;
+  outline: none;
+  border: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+@media screen and (min-width: 800px) {
+  .sectionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+  }
+  .changeItems {
+    margin: 0;
+  }
+  .prevArrow,
+  .nextArrow {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 30%;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999999999999;
+  }
+  .prevArrow {
+    left: 0%;
+  }
+  .nextArrow {
+    right: 0%;
+  }
+  .prevArrow::before,
+  .nextArrow::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    top: 37%;
+  }
+
+  .prevArrow::before {
+    transform: rotate(135deg);
+    left: 40%;
+  }
+  .nextArrow::before {
+    transform: rotate(-45deg);
+    right: 40%;
+  }
+}

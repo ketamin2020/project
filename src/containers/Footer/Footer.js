@@ -1,16 +1,48 @@
 import React, { useContext } from "react";
 import { Context } from "../../context/Context";
+import { NavLink } from "react-router-dom";
 import Accordion from "../../common/accordion/Accordion";
 import SocialPanel from "../../common/SocialPanel/SocialPanel";
 import style from "./Footer.module.css";
 
 const Footer = () => {
   const { footer } = useContext(Context);
+  const { products, information, companies } = footer;
   return (
     <footer className={style.footer}>
-      <Accordion data={footer.products} />
-      <Accordion data={footer.information} />
-      <Accordion data={footer.companies} />
+      <Accordion title={products.title}>
+        <ul className="listItems">
+          {products.links.map(({ linkName, path }, ind) => (
+            <li className="item" key={ind}>
+              <NavLink className="navLink" to={path}>
+                {linkName}
+              </NavLink>
+            </li>
+          ))}
+        </ul>
+      </Accordion>
+      <Accordion title={information.title}>
+        <ul className="listItems">
+          {information.links.map(({ linkName, path }, ind) => (
+            <li className="item" key={ind}>
+              <NavLink className="navLink" to={path}>
+                {linkName}
+              </NavLink>
+            </li>
+          ))}
+        </ul>
+      </Accordion>
+      <Accordion title={companies.title}>
+        <ul className="listItems">
+          {companies.links.map(({ linkName, path }, ind) => (
+            <li className="item" key={ind}>
+              <NavLink className="navLink" to={path}>
+                {linkName}
+              </NavLink>
+            </li>
+          ))}
+        </ul>
+      </Accordion>
       <SocialPanel />
       <form className={style.form}>
         <p className={style.formTitle}>Подпишитесь на наши новости</p>
