@@ -28,7 +28,11 @@ const SliderMain = () => {
     beforeChange: (prev, next) => setIndexSlide(next),
     appendDots: (dots) => <ul>{dots}</ul>,
     customPaging: (index) => (
-      <button style={index === indexSlide ? { height: "4px" } : null}></button>
+      <button
+        style={
+          index === indexSlide ? { borderBottom: "4px solid white" } : null
+        }
+      ></button>
     ),
   };
   return (
