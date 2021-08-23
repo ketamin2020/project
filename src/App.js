@@ -12,6 +12,9 @@ import PopularItems from "./containers/PopularItems/PopularItems";
 import AllCategories from "./containers/AllCaregories/AllCategories";
 import AboutService from "./containers/AboutService/AboutService";
 import Footer from "./containers/Footer/Footer";
+// ------------------
+import Accessories from "./containers/Accessories/Accessories";
+import ServiceCenter from "./containers/ServiceCenter/ServiceCenter";
 
 const App = () => {
   return (
@@ -26,6 +29,8 @@ const App = () => {
             <PopularItems />
             <AllCategories />
             <AboutService />
+            <Accessories />
+            <ServiceCenter />
             <Footer />
           </Layout>
         </Context.Provider>

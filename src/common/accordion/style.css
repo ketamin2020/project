@@ -58,12 +58,22 @@
   padding: 10px 0;
 }
 
-@media screen and (min-width: 1260px) {
+@media screen and (min-width: 1150px) {
+  .accordion__section {
+    width: 200px;
+    border: none;
+  }
   .accordion__title {
     width: 500px;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 14px;
     text-align: left;
+  }
+  .accordion__content {
+    overflow: visible;
+  }
+  .accordion__icon {
+    display: none;
   }
 }

@@ -14,6 +14,10 @@ import facebookIcon from "../images/footer/facebook.svg";
 import instagramIcon from "../images/footer/instagram.svg";
 import telegramIcon from "../images/footer/telegram.svg";
 import vkIcon from "../images/footer/vkontakte.svg";
+import service_icon1 from "../images/serviceCenter/service_icon1.svg";
+import service_icon2 from "../images/serviceCenter/service_icon2.svg";
+import service_icon3 from "../images/serviceCenter/service_icon3.svg";
+import service_icon4 from "../images/serviceCenter/service_icon4.svg";
 
 const data = {
   navBarLink: [
@@ -109,6 +113,74 @@ const data = {
     { title: "Повербанки", image: categories_5 },
     { title: "Моноподы и штативы", image: categories_6 },
   ],
+  accessories: [
+    {
+      title: "Чехлы",
+      image: categories_1,
+      subTitle: [
+        { item: "Силиконовые " },
+        { item: "Деревянные" },
+        { item: "Светящиеся " },
+        { item: "С наклейками" },
+        { item: "Детские" },
+      ],
+    },
+    {
+      title: "Кабели и адаптеры",
+      image: categories_2,
+      subTitle: [
+        { item: "Силиконовые " },
+        { item: "Деревянные" },
+        { item: "Светящиеся " },
+        { item: "С наклейками" },
+        { item: "Детские" },
+      ],
+    },
+    {
+      title: "Защитные стекла",
+      image: categories_3,
+      subTitle: [
+        { item: "Силиконовые " },
+        { item: "Деревянные" },
+        { item: "Светящиеся " },
+        { item: "С наклейками" },
+        { item: "Детские" },
+      ],
+    },
+    {
+      title: "Наушники и колонки",
+      image: categories_4,
+      subTitle: [
+        { item: "Силиконовые " },
+        { item: "Деревянные" },
+        { item: "Светящиеся " },
+        { item: "С наклейками" },
+        { item: "Детские" },
+      ],
+    },
+    {
+      title: "Повербанки",
+      image: categories_5,
+      subTitle: [
+        { item: "Силиконовые " },
+        { item: "Деревянные" },
+        { item: "Светящиеся " },
+        { item: "С наклейками" },
+        { item: "Детские" },
+      ],
+    },
+    {
+      title: "Моноподы и штативы",
+      image: categories_6,
+      subTitle: [
+        { item: "Силиконовые " },
+        { item: "Деревянные" },
+        { item: "Светящиеся " },
+        { item: "С наклейками" },
+        { item: "Детские" },
+      ],
+    },
+  ],
 
   outService: [
     {
@@ -166,5 +238,37 @@ const data = {
     { image: instagramIcon },
     { image: vkIcon },
   ],
+
+  serviceCenter: {
+    title: "Сервисный центр",
+    subTitle:
+      "Качественные комплектующие на популярные модели всегда в наличии. Не надо ждать!",
+    about:
+      "Быстро изготовим ключи, печати, сделаем фото на документы и поможем со сканированием и распечаткой документов",
+    cards: [
+      {
+        image: service_icon1,
+        title: "Дисплеи",
+        text: "Оригинальная сочность и качество изображения, оригинальная яркость и четкость цветопередачи, оригинальная чувствительность Touchscreen.",
+      },
+      {
+        image: service_icon2,
+        title: "Шлейфы",
+        text: "Электронные компоненты (камеры, разъемы зарядки, микрофоны) на шлейфах полностью соответствуют стандартам производителей",
+      },
+      {
+        image: service_icon3,
+        title: "Кнопки",
+        text: "Износостойкие кнопки из материалов оригинального производства. Наши кнопки не вызывают аллергии и выполнени из экологичного пластика",
+      },
+      {
+        image: service_icon4,
+        title: "Аккумуляторы",
+        text: "От производителей, обеспечивающих более 1000 циклов заряда/разряда. Каждая батарея проходит дополнительный контроль разряда и заряда",
+      },
+    ],
+    bannerText:
+      "Вызовите курьера за 399 р, сэкономьте время а мы проведем ремонт за 1 день!",
+  },
 };
 export default data;
