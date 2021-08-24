@@ -18,6 +18,7 @@ import service_icon1 from "../images/serviceCenter/service_icon1.svg";
 import service_icon2 from "../images/serviceCenter/service_icon2.svg";
 import service_icon3 from "../images/serviceCenter/service_icon3.svg";
 import service_icon4 from "../images/serviceCenter/service_icon4.svg";
+import serviceMapIcon from "../images/serviceCenter/serviceMapIcon.svg";
 
 const data = {
   navBarLink: [
@@ -267,6 +268,7 @@ const data = {
         text: "От производителей, обеспечивающих более 1000 циклов заряда/разряда. Каждая батарея проходит дополнительный контроль разряда и заряда",
       },
     ],
+    serviceMapIcon: serviceMapIcon,
     bannerText:
       "Вызовите курьера за 399 р, сэкономьте время а мы проведем ремонт за 1 день!",
   },

@@ -16,7 +16,7 @@
   height: 100%;
   top: 0;
   z-index: 2;
-  margin: 0 20px;
+  padding: 0 20px;
 }
 .contentTitle {
   font-family: var(--PrimeFont);
@@ -26,13 +26,127 @@
   margin: 50px 0;
 }
 .contentSubTitle {
-  max-width: 476px;
+  width: 355px;
   font-family: var(--PrimeFont);
   font-size: 20px;
   font-weight: bold;
   color: white;
   margin: 20px 0;
   line-height: 130%;
+}
+.contentWrapper {
+  padding: 30px 10px;
+  max-width: 1200px;
+  margin: auto;
+}
+.about {
+  max-width: 756px;
+  margin: 20px 0;
+  font-family: var(--PrimeFont);
+  font-size: 20px;
+  line-height: 130%;
+}
+.cardImage {
+  width: 27px;
+  height: 37px;
+}
+.mapImage {
+  width: 52px;
+  height: 52px;
+}
+.adresesWraper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 343px;
+  height: 88px;
+  border: 3px solid var(--cardTitle);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+.adresesTitle {
+  font-family: var(--PrimeFont);
+  font-size: 18px;
+  line-height: 125%;
+}
+.textAbout {
+  font-family: var(--PrimeFont);
+  font-size: 40px;
+  margin: 30px 0;
+  line-height: 130%;
+}
+.cardListItems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+}
+.cardTitle {
+  font-family: var(--PrimeFont);
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 130%;
+  margin: 10px;
+}
+.cardText {
+  font-family: var(--PrimeFont);
+  font-weight: normal;
+  color: var(--greyTextColor);
+  font-size: 12px;
+  line-height: 150%;
+}
+.bannerText {
+  font-family: var(--PrimeFont);
+  font-size: 25px;
+  line-height: 130%;
+  font-weight: bold;
+  margin: 20px 0;
+  text-align: center;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.04);
+}
+.bannerWrapper {
+  position: relative;
+  margin: auto;
+}
+.bannerButtom {
+  display: block;
+  width: 342px;
+  height: 48px;
+  background: linear-gradient(90deg, #ee6409 0%, #f77d0c 100%), #ee6409;
+  border-radius: 4px;
+  border: none;
+  font-family: var(--PrimeFont);
+  font-size: 16px;
+  line-height: 170%;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  margin: 20px auto;
+}
+.phoneLink {
+  display: block;
+  font-family: var(--PrimeFont);
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 130%;
+  color: black;
+  width: 100%;
+}
+.bannerImage {
+  background-image: url("../../images/serviceCenter/bannerImage.png");
+  height: 253px;
+  border-radius: 8px;
+  background-position: right;
+  background-size: cover;
 }
 
 @media screen and (min-width: 600px) {
@@ -47,6 +161,49 @@
 }
 @media screen and (min-width: 800px) {
   .content {
-    margin-left: 100px;
+    padding: 20px 100px;
+  }
+  .contentWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .textAbout,
+  .cardListItems {
+    width: 100%;
+  }
+  .cardListItems {
+    justify-content: space-around;
+  }
+  .textAbout {
+    margin: 50px 0;
+  }
+  .about {
+    font-size: 32px;
+  }
+  .item {
+    width: 210px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .bannerWrapper {
+    width: 100%;
+  }
+  .bannerText {
+    position: absolute;
+    width: 629px;
+    text-align: left;
+    top: 0;
+    left: 50px;
+  }
+
+  .bannerButtom {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+  }
+  .phoneLink {
+    position: absolute;
+    top: 130px;
   }
 }
