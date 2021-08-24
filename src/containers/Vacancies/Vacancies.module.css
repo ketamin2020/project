@@ -1,0 +1,113 @@
+.section {
+  padding: 20px 5px;
+  width: 100%;
+  margin: auto;
+}
+.sectionTitle {
+  font-family: var(--PrimeFont);
+  font-size: 48px;
+  line-height: 120%;
+  font-weight: bold;
+  color: black;
+}
+.vacanciesListItems {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 100%;
+}
+.vacanciesListItems li {
+  border-bottom: 1px solid #c9d0d7;
+}
+.vacanciesTitle {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-between;
+}
+.vacanciesTitle p {
+  width: 25%;
+  color: #717171;
+  font-size: 13px;
+  font-family: var(--PrimeFont);
+  padding: 6px;
+}
+.vacanciesItem p {
+  width: 25%;
+}
+.vacanciesItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 80px;
+  padding: 4px;
+}
+.vacanciesPosition {
+  font-family: var(--PrimeFont);
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 130%;
+  color: black;
+}
+.vacanciesExperience,
+.vacanciesSalary {
+  font-family: var(--PrimeFont);
+  font-size: 12px;
+  color: black;
+}
+.vacanciesInfo {
+  font-family: var(--PrimeFont);
+  font-size: 10px;
+  line-height: 160%;
+  color: black;
+}
+.contactsInfoWrapper {
+  width: 100%;
+  max-width: 708px;
+  height: 104px;
+  border: 3px solid #ee6409;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 60px auto;
+}
+.department {
+  font-family: var(--PrimeFont);
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 130%;
+  color: black;
+}
+.cantactPhone,
+.contactEmail {
+  font-family: var(--PrimeFont);
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 130%;
+  color: black;
+}
+
+@media screen and (min-width: 800px) {
+  .section {
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+  }
+  .vacanciesPosition {
+    font-size: 20px;
+  }
+  .vacanciesExperience,
+  .vacanciesSalary,
+  .vacanciesInfo {
+    font-size: 17px;
+  }
+  .department {
+    font-size: 20px;
+  }
+  .cantactPhone,
+  .contactEmail {
+    font-size: 25px;
+  }
+}

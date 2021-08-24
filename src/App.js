@@ -15,6 +15,7 @@ import Footer from "./containers/Footer/Footer";
 // ------------------
 import Accessories from "./containers/Accessories/Accessories";
 import ServiceCenter from "./containers/ServiceCenter/ServiceCenter";
+import Vacancies from "./containers/Vacancies/Vacancies";
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
             <AboutService />
             <Accessories />
             <ServiceCenter />
+            <Vacancies />
             <Footer />
           </Layout>
         </Context.Provider>
