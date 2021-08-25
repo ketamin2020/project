@@ -19,6 +19,7 @@ import service_icon2 from "../images/serviceCenter/service_icon2.svg";
 import service_icon3 from "../images/serviceCenter/service_icon3.svg";
 import service_icon4 from "../images/serviceCenter/service_icon4.svg";
 import serviceMapIcon from "../images/serviceCenter/serviceMapIcon.svg";
+import map from "../images/contacts/map.png";
 
 const data = {
   navBarLink: [
@@ -30,6 +31,8 @@ const data = {
   ],
   navBarPhone: "+7 (921) 912-34-56",
   email: "hr@mobilus.ru",
+  address: "Москва, 197374, ул. Оптиков, д. 4",
+  map: map,
   mainNavLink: [
     { linkName: "Чехлы" },
     { linkName: "Стекла" },
