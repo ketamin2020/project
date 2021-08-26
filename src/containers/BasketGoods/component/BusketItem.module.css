@@ -1,0 +1,168 @@
+.productsList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 837px;
+}
+
+.productItem {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100px;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 1px solid #e9ecee;
+}
+
+.productName {
+  font-family: var(--PrimeFont);
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 170%;
+  width: 22%;
+  color: black;
+  padding: 4px;
+  text-align: center;
+}
+.productImage {
+  width: 50px;
+  height: 50px;
+}
+.productArticle {
+  font-family: var(--PrimeFont);
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 150%;
+  color: var(--greyTextColor);
+  width: 10%;
+}
+.minusWraper,
+.plusWraper {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  background-color: #e9ecee;
+  border-radius: 50%;
+  text-align: center;
+  padding: 2px;
+  padding-left: 4px;
+  cursor: pointer;
+}
+.minus,
+.plusHor {
+  display: inline-block;
+  width: 13px;
+  height: 2px;
+  background-color: #757c83;
+}
+.plusVer {
+  position: absolute;
+  top: 13px;
+  left: 8px;
+  width: 13px;
+  height: 2px;
+  background-color: #757c83;
+  transform: rotate(90deg);
+}
+.counterWrapper {
+  display: flex;
+  align-items: center;
+}
+.productCount {
+  width: 30px;
+  padding-top: 4px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 125%;
+  font-family: var(--PrimeFont);
+  color: black;
+}
+.priceWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+  padding: 0 4px;
+}
+.productOldPrice {
+  font-family: var(--PrimeFont);
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 160%;
+  color: var(--greyTextColor);
+  text-decoration: line-through;
+}
+.productPrice {
+  font-family: var(--PrimeFont);
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 125%;
+  color: black;
+}
+.productTotal {
+  font-family: var(--PrimeFont);
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 160%;
+  color: var(--greyTextColor);
+}
+.deleteProductWraper {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: all 0.2s linear;
+}
+.lineHor,
+.lineVer {
+  display: inline-block;
+  width: 10px;
+  height: 1px;
+  background-color: #b6bec6;
+  position: absolute;
+  left: 6px;
+  top: 11px;
+  transition: all 0.2s linear;
+}
+.lineHor {
+  transform: rotate(45deg);
+}
+.lineVer {
+  transform: rotate(-45deg);
+}
+.deleteProductWraper:hover {
+  transition: all 0.2s linear;
+  border: 1px solid red;
+}
+.deleteProductWraper:hover .lineVer,
+.deleteProductWraper:hover .lineHor {
+  transition: all 0.2s linear;
+  background-color: red;
+}
+
+@media screen and (min-width: 800px) {
+  .productOldPrice {
+    font-size: 12px;
+  }
+
+  .productArticle {
+    font-size: 13px;
+  }
+  .productName,
+  .productPrice {
+    font-size: 14px;
+  }
+  .productPrice {
+    font-size: 18px;
+  }
+  .productImage {
+    width: 64px;
+    height: 64px;
+  }
+}

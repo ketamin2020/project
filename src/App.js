@@ -17,6 +17,7 @@ import Accessories from "./containers/Accessories/Accessories";
 import ServiceCenter from "./containers/ServiceCenter/ServiceCenter";
 import Vacancies from "./containers/Vacancies/Vacancies";
 import Contacts from "./containers/Contacts/Contacts";
+import BasketGoods from "./containers/BasketGoods/BasketGoods";
 
 const App = () => {
   return (
@@ -35,6 +36,7 @@ const App = () => {
             <ServiceCenter />
             <Vacancies />
             <Contacts />
+            <BasketGoods />
             <Footer />
           </Layout>
         </Context.Provider>

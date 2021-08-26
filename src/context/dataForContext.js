@@ -20,6 +20,7 @@ import service_icon3 from "../images/serviceCenter/service_icon3.svg";
 import service_icon4 from "../images/serviceCenter/service_icon4.svg";
 import serviceMapIcon from "../images/serviceCenter/serviceMapIcon.svg";
 import map from "../images/contacts/map.png";
+import pictogram from "../imagesDev/pictogram.png";
 
 const data = {
   navBarLink: [
@@ -307,6 +308,41 @@ const data = {
       experience: "2-3 года",
       salary: "45000-55000 р.",
       info: "Оформление по ТК, премии по итогам работы",
+    },
+  ],
+
+  busketGoods: [
+    {
+      image: pictogram,
+      article: 4422345,
+      name: "Чехол силиконовый Iphone 12",
+      count: 2,
+      price: 2300,
+      oldPrice: 3333,
+    },
+    {
+      image: pictogram,
+      article: 4422345,
+      name: "Защитное стекло Iphone 8 Ultra 8G Megastanless steel Gorilla Glass`",
+      count: 1,
+      price: 2300,
+      oldPrice: 3333,
+    },
+    {
+      image: pictogram,
+      article: 4422345,
+      name: "Чехол силиконовый Iphone 12",
+      count: 2,
+      price: 2300,
+      oldPrice: 3333,
+    },
+    {
+      image: pictogram,
+      article: 4422345,
+      name: "Чехол силиконовый Iphone 12",
+      count: 2,
+      price: 2300,
+      oldPrice: 3333,
     },
   ],
 };
