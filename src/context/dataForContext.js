@@ -326,7 +326,7 @@ const data = {
       name: "Защитное стекло Iphone 8 Ultra 8G Megastanless steel Gorilla Glass`",
       count: 1,
       price: 2300,
-      oldPrice: 3333,
+      oldPrice: "",
     },
     {
       image: pictogram,
@@ -340,9 +340,9 @@ const data = {
       image: pictogram,
       article: 4422345,
       name: "Чехол силиконовый Iphone 12",
-      count: 2,
+      count: "",
       price: 2300,
-      oldPrice: 3333,
+      oldPrice: "",
     },
   ],
 };

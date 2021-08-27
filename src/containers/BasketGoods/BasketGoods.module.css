@@ -1,0 +1,20 @@
+.section {
+  padding: 20px 0;
+}
+.sectionTitle {
+  width: 100%;
+  font-family: var(--PrimeFont);
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 120%;
+  color: black;
+  margin: 20px;
+}
+
+@media screen and (min-width: 800px) {
+  .section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

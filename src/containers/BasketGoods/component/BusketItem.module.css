@@ -38,47 +38,7 @@
   color: var(--greyTextColor);
   width: 10%;
 }
-.minusWraper,
-.plusWraper {
-  position: relative;
-  width: 28px;
-  height: 28px;
-  background-color: #e9ecee;
-  border-radius: 50%;
-  text-align: center;
-  padding: 2px;
-  padding-left: 4px;
-  cursor: pointer;
-}
-.minus,
-.plusHor {
-  display: inline-block;
-  width: 13px;
-  height: 2px;
-  background-color: #757c83;
-}
-.plusVer {
-  position: absolute;
-  top: 13px;
-  left: 8px;
-  width: 13px;
-  height: 2px;
-  background-color: #757c83;
-  transform: rotate(90deg);
-}
-.counterWrapper {
-  display: flex;
-  align-items: center;
-}
-.productCount {
-  width: 30px;
-  padding-top: 4px;
-  text-align: center;
-  font-size: 16px;
-  line-height: 125%;
-  font-family: var(--PrimeFont);
-  color: black;
-}
+
 .priceWrapper {
   display: flex;
   flex-wrap: wrap;
@@ -108,42 +68,6 @@
   font-size: 13px;
   line-height: 160%;
   color: var(--greyTextColor);
-}
-.deleteProductWraper {
-  position: relative;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  cursor: pointer;
-  text-align: center;
-  border: 1px solid transparent;
-  transition: all 0.2s linear;
-}
-.lineHor,
-.lineVer {
-  display: inline-block;
-  width: 10px;
-  height: 1px;
-  background-color: #b6bec6;
-  position: absolute;
-  left: 6px;
-  top: 11px;
-  transition: all 0.2s linear;
-}
-.lineHor {
-  transform: rotate(45deg);
-}
-.lineVer {
-  transform: rotate(-45deg);
-}
-.deleteProductWraper:hover {
-  transition: all 0.2s linear;
-  border: 1px solid red;
-}
-.deleteProductWraper:hover .lineVer,
-.deleteProductWraper:hover .lineHor {
-  transition: all 0.2s linear;
-  background-color: red;
 }
 
 @media screen and (min-width: 800px) {

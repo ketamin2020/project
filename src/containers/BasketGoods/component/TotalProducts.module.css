@@ -1,0 +1,64 @@
+.totalWraper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 344px;
+  background-color: #f2f2f2;
+  width: 100%;
+  padding: 20px;
+}
+.totalTitle {
+  font-family: var(--PrimeFont);
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 130%;
+  color: black;
+}
+.priceText {
+  width: 204px;
+}
+.totalProducts,
+.priceText {
+  font-family: var(--PrimeFont);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  color: black;
+}
+.priceValue {
+  font-family: var(--PrimeFont);
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 130%;
+  color: black;
+}
+.promocode {
+  font-family: var(--PrimeFont);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 170%;
+  color: var(--cardTitle);
+}
+.buttonSubmit {
+  display: block;
+  width: 310px;
+  height: 48px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: var(--bascketBackgroundHover);
+  font-family: var(--PrimeFont);
+  color: white;
+  font-size: 16px;
+}
+@media screen and (min-width: 800px) {
+  .totalWraper {
+    width: 261px;
+    border-radius: 6px;
+    margin: 10px;
+  }
+  .buttonSubmit {
+    width: 100%;
+  }
+}

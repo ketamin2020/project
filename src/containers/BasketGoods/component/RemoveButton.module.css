@@ -1,0 +1,36 @@
+.deleteProductWraper {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #b6bec6;
+  transition: all 0.2s linear;
+}
+.lineHor,
+.lineVer {
+  display: inline-block;
+  width: 10px;
+  height: 1px;
+  background-color: #b6bec6;
+  position: absolute;
+  left: 6px;
+  top: 11px;
+  transition: all 0.2s linear;
+}
+.lineHor {
+  transform: rotate(45deg);
+}
+.lineVer {
+  transform: rotate(-45deg);
+}
+.deleteProductWraper:hover {
+  transition: all 0.2s linear;
+  border: 1px solid red;
+}
+.deleteProductWraper:hover .lineVer,
+.deleteProductWraper:hover .lineHor {
+  transition: all 0.2s linear;
+  background-color: red;
+}

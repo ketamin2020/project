@@ -1,0 +1,41 @@
+.minusWraper,
+.plusWraper {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  background-color: #e9ecee;
+  border-radius: 50%;
+  text-align: center;
+  padding: 2px;
+  padding-left: 4px;
+  cursor: pointer;
+}
+.minus,
+.plusHor {
+  display: inline-block;
+  width: 13px;
+  height: 2px;
+  background-color: #757c83;
+}
+.plusVer {
+  position: absolute;
+  top: 13px;
+  left: 8px;
+  width: 13px;
+  height: 2px;
+  background-color: #757c83;
+  transform: rotate(90deg);
+}
+.counterWrapper {
+  display: flex;
+  align-items: center;
+}
+.productCount {
+  width: 30px;
+  padding-top: 4px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 125%;
+  font-family: var(--PrimeFont);
+  color: black;
+}

@@ -28,14 +28,14 @@ const App = () => {
             <SubHeaderNav />
             <Header />
             <HeaderMobile />
-            <Slider />
+            {/* <Slider />
             <PopularItems />
             <AllCategories />
             <AboutService />
             <Accessories />
             <ServiceCenter />
             <Vacancies />
-            <Contacts />
+            <Contacts /> */}
             <BasketGoods />
             <Footer />
           </Layout>
