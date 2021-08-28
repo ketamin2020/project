@@ -1,0 +1,154 @@
+.section {
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px 10px;
+  margin: 0 auto;
+}
+.imageWraper {
+  width: 343px;
+  height: 400px;
+  position: relative;
+  margin: 20px auto;
+}
+.salaresBg_mob {
+  width: 100%;
+  border-radius: 8px;
+  background: linear-gradient(
+    0deg,
+    rgba(8, 15, 39, 0.26),
+    rgba(8, 15, 39, 0.26)
+  );
+}
+.sectionMainTitle {
+  font-family: var(--PrimeFont);
+  position: absolute;
+  top: 30%;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 130%;
+  color: #ffffff;
+}
+
+.salaresBg_desktop {
+  display: none;
+}
+.sectionTitle {
+  font-family: var(--PrimeFont);
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 130%;
+  color: #000000;
+  padding: 20px 0;
+}
+.sectionText,
+.variantItemText {
+  font-family: var(--PrimeFont);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 170%;
+  color: #000000;
+}
+.sectionTextSubtitle {
+  font-family: var(--PrimeFont);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  color: #000000;
+  padding: 20px 0;
+}
+.sectionTextSubtitle::before {
+  content: "";
+  display: inline-block;
+  width: 42px;
+  height: 24px;
+  margin-right: 20px;
+  vertical-align: middle;
+  background-image: url("../../images/wholsalers/car_icon.svg");
+}
+.variantTitle {
+  font-family: var(--PrimeFont);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 130%;
+  color: #000000;
+  padding: 20px 0;
+}
+.variantItemTitle {
+  font-family: var(--PrimeFont);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 130%;
+  color: #000000;
+  padding: 10px 0;
+}
+.variantCardsListItem {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .salaresBg_mob {
+    display: none;
+  }
+  .imageWraper {
+    width: 100%;
+  }
+  .salaresBg_desktop {
+    display: unset;
+    height: 358px;
+    background: linear-gradient(
+      0deg,
+      rgba(8, 15, 39, 0.26),
+      rgba(8, 15, 39, 0.26)
+    );
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .sectionMainTitle {
+    font-size: 48px;
+    padding: 0 50px;
+  }
+  .variantListItems {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #c9d0d7;
+  }
+  .variantItem {
+    padding: 20px;
+  }
+  .variantCardsListItem {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 40px;
+  }
+  .variantCardsItem {
+    display: flex;
+    padding: 20px;
+  }
+
+  .variantCardsItem::before {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 5px;
+    margin: 10px;
+    padding: 0 14px;
+    background-color: var(--orangeTextColor);
+  }
+  .variantCardsText {
+    display: inline-block;
+    font-family: var(--PrimeFont);
+    font-size: 13px;
+    line-height: 150%;
+    color: black;
+  }
+  .variantCardsText::first-letter {
+    font-weight: bold;
+    font-size: 30px;
+  }
+}

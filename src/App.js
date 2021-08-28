@@ -18,6 +18,7 @@ import ServiceCenter from "./containers/ServiceCenter/ServiceCenter";
 import Vacancies from "./containers/Vacancies/Vacancies";
 import Contacts from "./containers/Contacts/Contacts";
 import BasketGoods from "./containers/BasketGoods/BasketGoods";
+import Wholesalers from "./containers/Wholesalers/Wholesalers";
 
 const App = () => {
   return (
@@ -27,16 +28,17 @@ const App = () => {
           <Layout>
             <SubHeaderNav />
             <Header />
-            <HeaderMobile />
-            {/* <Slider />
+            {/* <HeaderMobile />
+            <Slider />
             <PopularItems />
             <AllCategories />
             <AboutService />
             <Accessories />
             <ServiceCenter />
             <Vacancies />
-            <Contacts /> */}
-            <BasketGoods />
+            <Contacts />
+            <BasketGoods /> */}
+            <Wholesalers />
             <Footer />
           </Layout>
         </Context.Provider>
