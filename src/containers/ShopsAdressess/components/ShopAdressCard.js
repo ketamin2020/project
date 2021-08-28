@@ -27,7 +27,7 @@ const ShopAdressCard = (props) => {
       <div className={style.card__infoSection}>
         <p className={style.card__address}>{address}</p>
         <div className={style.card__contactInfo}>
-          <a className={style.card__phone} href={`tel+${phone}`}>
+          <a className={style.card__phone} href={`${"tel:" + phone}`}>
             {phone}
           </a>
           <p className={style.card__timeWork}>{workTime}</p>
