@@ -20,6 +20,7 @@ import Contacts from "./containers/Contacts/Contacts";
 import BasketGoods from "./containers/BasketGoods/BasketGoods";
 import Wholesalers from "./containers/Wholesalers/Wholesalers";
 import AboutCompany from "./containers/AboutCompany/AboutCompany";
+import ShopsAdressess from "./containers/ShopsAdressess/ShopsAdressess";
 
 const App = () => {
   return (
@@ -39,8 +40,9 @@ const App = () => {
             <Vacancies />
             <Contacts />
             <BasketGoods />
-            <Wholesalers /> */}
-            <AboutCompany />
+            <Wholesalers />
+            <AboutCompany /> */}
+            <ShopsAdressess />
             <Footer />
           </Layout>
         </Context.Provider>

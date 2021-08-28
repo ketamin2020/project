@@ -1,0 +1,117 @@
+.card__section {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 15px 0;
+  width: 353px;
+  background: #ffffff;
+  box-shadow: 0px 4px 32px rgba(50, 54, 59, 0.1);
+}
+
+.card {
+  background-color: transparent;
+  color: #444;
+  cursor: pointer;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  transition: background-color 0.6s ease;
+  border-radius: 10px;
+}
+
+.card:hover,
+.active {
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.card__title {
+  width: 300px;
+  font-family: var(--PrimeFont);
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+  text-align: left;
+}
+
+.card__icon {
+  margin-left: auto;
+  transition: transform 0.6s ease;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.card__content {
+  background-color: transparent;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+  font-family: var(--PrimeFont);
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 150%;
+  color: #000000;
+}
+.card__infoSection {
+  border-bottom: 1px solid #d5dadf;
+}
+.card__address {
+  font-family: var(--PrimeFont);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 170%;
+  color: #000000;
+}
+.card__phone {
+  font-family: var(--PrimeFont);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  color: #000000;
+}
+.card__contactInfo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding: 10px 0;
+}
+.card__timeWork {
+  font-family: var(--PrimeFont);
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 150%;
+  color: #676f77;
+}
+.card__metroColor {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+.card__moreInfo {
+  width: 110px;
+  padding-right: 6px;
+}
+
+/* @media screen and (min-width: 1150px) {
+  .accordion__section {
+    width: 200px;
+    border: none;
+  }
+  .accordion__title {
+    width: 500px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: left;
+  }
+  .accordion__content {
+    overflow: visible;
+  }
+  .accordion__icon {
+    display: none;
+  }
+} */
