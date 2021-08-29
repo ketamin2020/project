@@ -21,7 +21,6 @@ import BasketGoods from "./containers/BasketGoods/BasketGoods";
 import Wholesalers from "./containers/Wholesalers/Wholesalers";
 import AboutCompany from "./containers/AboutCompany/AboutCompany";
 import ShopsAdressess from "./containers/ShopsAdressess/ShopsAdressess";
-import Map from "./containers/ShopsAdressess/components/Map";
 
 const App = () => {
   return (
@@ -44,7 +43,6 @@ const App = () => {
             <Wholesalers />
             <AboutCompany /> */}
             <ShopsAdressess />
-            <Map />
             <Footer />
           </Layout>
         </Context.Provider>

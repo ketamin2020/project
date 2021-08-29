@@ -1,4 +1,5 @@
 .section {
+  position: relative;
   padding: 20px;
   width: 100%;
   max-width: 1200px;
@@ -20,4 +21,15 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+@media screen and (min-width: 900px) {
+  .cardListItems {
+    display: none;
+  }
+
+  .cardItemDesktop {
+    position: absolute;
+    background-color: white;
+    z-index: 999;
+  }
 }

@@ -1,9 +1,13 @@
 .map {
   display: none;
 }
+.icon {
+  cursor: pointer;
+}
 
 @media screen and (min-width: 900px) {
   .map {
     display: block;
+    margin: 0 auto;
   }
 }

@@ -9,7 +9,7 @@
 }
 
 .card {
-  background-color: transparent;
+  background-color: #fff;
   color: #444;
   cursor: pointer;
   padding: 10px 0;
@@ -23,7 +23,7 @@
 
 .card:hover,
 .active {
-  background-color: transparent;
+  background-color: white;
   border-radius: 10px;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .card__content {
-  background-color: transparent;
+  background-color: black;
   overflow: hidden;
   transition: max-height 0.6s ease;
   font-family: var(--PrimeFont);
@@ -96,22 +96,15 @@
   padding-right: 6px;
 }
 
-/* @media screen and (min-width: 1150px) {
-  .accordion__section {
-    width: 200px;
-    border: none;
+@media screen and (min-width: 900px) {
+  .card__section {
+    height: 200px;
   }
-  .accordion__title {
-    width: 500px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    text-align: left;
-  }
-  .accordion__content {
+  .card__content {
     overflow: visible;
+    background-color: #fff;
   }
-  .accordion__icon {
+  .card__icon {
     display: none;
   }
-} */
+}
