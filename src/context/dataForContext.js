@@ -29,6 +29,8 @@ import card_1 from "../images/aboutCompany/card_1.png";
 import card_2 from "../images/aboutCompany/card_2.png";
 import card_3 from "../images/aboutCompany/card_3.png";
 import phones from "../images/aboutCompany/phones.png";
+import phoneProduct from "../imagesDev/phoneProducts.png";
+import phoneProduct1 from "../imagesDev/productPhone1.png";
 
 const data = {
   navBarLink: [
@@ -538,6 +540,12 @@ const data = {
       howGoinTo:
         "Бульвар Дмитрия Донского. Павильон находится в подземном переходе станции метро Бульвар Дмитрия Донского. При входе в метро , вход №7/8.",
     },
+  ],
+
+  productImage: [
+    { image: phoneProduct },
+    { image: phoneProduct },
+    { image: phoneProduct },
   ],
 };
 export default data;

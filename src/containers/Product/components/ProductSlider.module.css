@@ -1,0 +1,98 @@
+.sliderContainer {
+  position: relative;
+  width: 375px;
+}
+.sliderImagesListMini {
+  position: relative;
+  width: 292px;
+  margin: auto;
+}
+.sliderImagesList {
+  overflow: hidden;
+}
+.sliderImage {
+  height: 412px;
+}
+.sliderImageMini {
+  width: 72px;
+  height: 75px;
+}
+
+.pagingImage {
+  width: 40px;
+}
+
+.lightLeft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100%;
+  background-color: white;
+  opacity: 0.5;
+  z-index: 999;
+}
+.lightRight {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100%;
+  background-color: white;
+  opacity: 0.5;
+  z-index: 999;
+}
+.prevArrow,
+.nextArrow {
+  position: absolute;
+  top: 24px;
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-bottom: 2px solid #b6bec6;
+  border-right: 2px solid #b6bec6;
+  cursor: pointer;
+  z-index: 9999;
+}
+.prevArrow {
+  transform: rotate(133deg);
+}
+.nextArrow {
+  transform: rotate(-43deg);
+  right: 0px;
+}
+
+@media screen and (min-width: 900px) {
+  .sliderContainer {
+    margin-left: 200px;
+  }
+
+  .sliderImage {
+    width: 500px;
+    height: 600px;
+  }
+  .sliderImagesListMini {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: -240px;
+    transform: rotate(90deg);
+  }
+  .sliderImageMini {
+    transform: rotate(-90deg);
+  }
+  .sliderImagesListMini {
+    width: 104%;
+  }
+
+  .prevArrow {
+    left: -40px;
+    top: 35%;
+  }
+  .nextArrow {
+    top: 35%;
+  }
+  .lightRight {
+    width: 150px;
+  }
+}
