@@ -1,0 +1,19 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+@media screen and (min-width: 1000px) {
+  .section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .panelWraper {
+    width: 40%;
+  }
+}

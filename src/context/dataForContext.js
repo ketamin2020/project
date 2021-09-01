@@ -554,5 +554,13 @@ const data = {
     { color: "#5851A8" },
     { color: "#242424" },
   ],
+
+  productsShortFeature: [
+    { key: "Вид чехла", value: "Накладка" },
+    { key: "Рекомендовано для", value: "Apple " },
+    { key: "Модель устройства", value: "Apple iPhone 12, PRO" },
+    { key: "Материал", value: "Силикон " },
+    { key: "Особенности", value: "Подходит для беспроводной зарядки" },
+  ],
 };
 export default data;

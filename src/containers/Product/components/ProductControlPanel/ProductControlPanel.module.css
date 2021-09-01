@@ -81,3 +81,23 @@
 .linkFavorites::before {
   background-image: url("../../../../images/Products/heart_orange.svg");
 }
+
+@media screen and (min-width: 900px) {
+  .priceContentWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .controlButtonWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .addButton {
+    width: 177px;
+  }
+  .linkCompare,
+  .linkFavorites {
+    padding: 0;
+  }
+}
