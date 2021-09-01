@@ -1,13 +1,13 @@
-import React, { useContext } from "react";
-import { Context } from "../../context/Context";
-import ProductSlider from "./components/ProductSlider";
+import React from "react";
+import ProductSlider from "./components/ProductImageSlider/ProductSlider";
+import ColorChanger from "./components/ColorChanger/ColorChanger";
 import style from "./Product.module.css";
 
 const Product = () => {
-  const { productImage } = useContext(Context);
   return (
     <section className={style.section}>
       <ProductSlider />
+      <ColorChanger />
     </section>
   );
 };

@@ -547,5 +547,12 @@ const data = {
     { image: phoneProduct },
     { image: phoneProduct },
   ],
+  colors: [
+    { color: "#FF5555" },
+    { color: "#404759" },
+    { color: "#5DD3E3" },
+    { color: "#5851A8" },
+    { color: "#242424" },
+  ],
 };
 export default data;

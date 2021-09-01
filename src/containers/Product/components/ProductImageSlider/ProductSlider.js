@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect, useRef } from "react";
-import { Context } from "../../../context/Context";
+import { Context } from "../../../../context/Context";
 import Slider from "react-slick";
 import style from "./ProductSlider.module.css";
 
