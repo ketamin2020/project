@@ -1,0 +1,40 @@
+.listItems {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e4e9ed;
+}
+.itemKey {
+  font-family: var(--PrimeFont);
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 330%;
+  color: #757c83;
+}
+.itemValue {
+  font-family: var(--PrimeFont);
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 330%;
+  text-align: right;
+  color: #000000;
+}
+.title {
+  display: none;
+}
+@media screen and (min-width: 900px) {
+  .title {
+    display: block;
+    font-family: var(--PrimeFont);
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    color: #000000;
+  }
+}

@@ -30,7 +30,7 @@ import card_2 from "../images/aboutCompany/card_2.png";
 import card_3 from "../images/aboutCompany/card_3.png";
 import phones from "../images/aboutCompany/phones.png";
 import phoneProduct from "../imagesDev/phoneProducts.png";
-import phoneProduct1 from "../imagesDev/productPhone1.png";
+import deliveryImage from "../images/products/deliveryImage.png";
 
 const data = {
   navBarLink: [
@@ -561,6 +561,48 @@ const data = {
     { key: "Модель устройства", value: "Apple iPhone 12, PRO" },
     { key: "Материал", value: "Силикон " },
     { key: "Особенности", value: "Подходит для беспроводной зарядки" },
+  ],
+
+  deliverySection: {
+    deliveryImage: deliveryImage,
+    title: "Доставим курьером за 1 день!",
+    subTitle:
+      "Закажите доставку товаров в своем городе и от суммы 5000 р. мы доставим все товары бесплатно!",
+  },
+  fullDescription: {
+    navDescription: [
+      { title: "Описание" },
+      { title: "Характеристики" },
+      { title: "Оплата и доставка" },
+      { title: "Отзывы" },
+    ],
+  },
+
+  feature: [
+    [
+      { key: "Вид чехла", value: "Накладка" },
+      { key: "Рекомендовано для", value: "Apple " },
+      { key: "Модель устройства", value: "Apple iPhone 12, PRO" },
+      { key: "Материал", value: "Силикон " },
+      { key: "Особенности", value: "Подходит для беспроводной зарядки" },
+      { key: "Застежка ", value: "Страна-изготовитель" },
+      { key: "Страна-изготовитель", value: "Китай" },
+      { key: "Гарантия ", value: "1 год" },
+      { key: "Внешние размеры, мм", value: " 150х74,5х8" },
+      { key: "Макс. диагональ, дюймы", value: "6.1" },
+    ],
+    [
+      { key: "Рекомендовано для", value: "Apple " },
+      { key: "Вид чехла", value: "Накладка" },
+      { key: "Модель устройства", value: "Apple iPhone 12, PRO" },
+      { key: "Материал", value: "Силикон " },
+      { key: "Особенности", value: "Подходит для беспроводной зарядки" },
+      { key: "Застежка ", value: "Страна-изготовитель" },
+      { key: "Страна-изготовитель", value: "Китай" },
+      { key: "Гарантия ", value: "1 год" },
+      { key: "Внешние размеры, мм", value: " 150х74,5х8" },
+      { key: "Макс. диагональ, дюймы", value: "6.1" },
+    ],
   ],
 };
 export default data;

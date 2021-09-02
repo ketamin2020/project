@@ -52,7 +52,7 @@
   display: inline-block;
   vertical-align: top;
   margin-right: 10px;
-  background-image: url("../../../../images/Products/busket_orange.svg");
+  background-image: url("../../../../images/products/busket_orange.svg");
 }
 
 .linkCompare,
@@ -76,10 +76,10 @@
   cursor: pointer;
 }
 .linkCompare::before {
-  background-image: url("../../../../images/Products/compare_orange.svg");
+  background-image: url("../../../../images/products/compare_orange.svg");
 }
 .linkFavorites::before {
-  background-image: url("../../../../images/Products/heart_orange.svg");
+  background-image: url("../../../../images/products/heart_orange.svg");
 }
 
 @media screen and (min-width: 900px) {
