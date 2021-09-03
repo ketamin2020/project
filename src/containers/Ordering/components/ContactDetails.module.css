@@ -1,0 +1,10 @@
+.container {
+  padding: 20px 0;
+}
+
+.input {
+  background: #fbfbfb;
+  border: 1px solid #bac2ca;
+  box-sizing: border-box;
+  border-radius: 4px;
+}

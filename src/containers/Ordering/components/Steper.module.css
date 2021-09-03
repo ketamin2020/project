@@ -1,0 +1,36 @@
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttonPrev {
+  width: 132px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.buttonNext {
+  width: 132px;
+  height: 40px;
+  border: 1px solid #676f77;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.buttonPrev::before,
+.buttonNext::after {
+  content: "";
+  display: inline-block;
+  vertical-align: baseline;
+  margin-right: 10px;
+  width: 19px;
+  height: 9px;
+  background-image: url("../../../images/ordering/arrow_think.svg");
+}
+.buttonNext::after {
+  transform: rotate(180deg);
+  margin-left: 10px;
+}

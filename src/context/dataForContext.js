@@ -31,6 +31,7 @@ import card_3 from "../images/aboutCompany/card_3.png";
 import phones from "../images/aboutCompany/phones.png";
 import phoneProduct from "../imagesDev/phoneProducts.png";
 import deliveryImage from "../images/products/deliveryImage.png";
+import pic_order from "../imagesDev/pic_order.png";
 
 const data = {
   navBarLink: [
@@ -603,6 +604,44 @@ const data = {
       { key: "Внешние размеры, мм", value: " 150х74,5х8" },
       { key: "Макс. диагональ, дюймы", value: "6.1" },
     ],
+  ],
+  orderingList: [
+    {
+      image: pic_order,
+      articul: 2324523,
+      name: "Чехол силиконовый Iphone 12",
+      price: "560 ₽",
+    },
+    {
+      image: pic_order,
+      articul: 2324523,
+      name: "Чехол силиконовый Iphone 12",
+      price: "560 ₽",
+    },
+    {
+      image: pic_order,
+      articul: 2324523,
+      name: "Чехол силиконовый Iphone 12",
+      price: "560 ₽",
+    },
+    {
+      image: pic_order,
+      articul: 2324523,
+      name: "Чехол силиконовый Iphone 12",
+      price: "560 ₽",
+    },
+  ],
+  deliveryMethod: [
+    { name: "DPD", price: "240р. доставка 3 дня" },
+    { name: "DPD", price: "240р. доставка 3 дня" },
+    { name: "DPD", price: "240р. доставка 3 дня" },
+    { name: "DPD", price: "240р. доставка 3 дня" },
+  ],
+  paymentMethod: [
+    { name: "Онлайн", method: "Оплата на сайте" },
+    { name: "Онлайн", method: "Оплата на сайте" },
+    { name: "Онлайн", method: "Оплата на сайте" },
+    { name: "Онлайн", method: "Оплата на сайте" },
   ],
 };
 export default data;

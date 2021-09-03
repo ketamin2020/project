@@ -1,0 +1,64 @@
+.container {
+  padding: 20px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #e9ecee;
+}
+.listTitle {
+  font-family: var(--PrimeFont);
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 140%;
+  color: #202020;
+}
+.itemContentWraper {
+  padding: 10px;
+}
+.itemImage {
+  width: 64px;
+  height: 64px;
+  background-blend-mode: normal, darken, normal;
+  border: 1px solid #e9ecee;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.itemArticul {
+  font-family: var(--PrimeFont);
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 150%;
+  color: #676f77;
+}
+.itemName,
+.itemPrice {
+  font-family: var(--PrimeFont);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  color: #000000;
+}
+.payItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.discount,
+.discountValue {
+  font-family: var(--PrimeFont);
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 125%;
+  color: #000000;
+}
+.toPay,
+.toPayValue {
+  font-family: var(--PrimeFont);
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 130%;
+  color: #000000;
+}
