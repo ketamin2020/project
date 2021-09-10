@@ -643,5 +643,76 @@ const data = {
     { name: "Онлайн", method: "Оплата на сайте" },
     { name: "Онлайн", method: "Оплата на сайте" },
   ],
+
+  history: [
+    {
+      date: "06.02.2021",
+      number: 3965876,
+      cost: "15600",
+      status: "Получен",
+      ordered: [
+        {
+          name: "Переходник Microusb Belkin USB-C",
+          articel: 1063462,
+          how: 1,
+          price: 1500,
+        },
+        {
+          name: "Переходник Microusb Belkin USB-C",
+          articel: 1063462,
+          how: 1,
+          price: 1500,
+        },
+        {
+          name: "Переходник Microusb Belkin USB-C",
+          articel: 1063462,
+          how: 1,
+          price: 1500,
+        },
+      ],
+    },
+    {
+      date: "06.02.2021",
+      number: 3965876,
+      cost: "15600",
+      status: "Получен",
+      ordered: [
+        {
+          name: "Переходник Microusb Belkin USB-C",
+          articel: 1063462,
+          how: 1,
+          price: 1500,
+        },
+      ],
+    },
+    {
+      date: "06.02.2021",
+      number: 3965876,
+      cost: "15600",
+      status: "Получен",
+      ordered: [
+        {
+          name: "Переходник Microusb Belkin USB-C",
+          articel: 1063462,
+          how: 1,
+          price: 1500,
+        },
+      ],
+    },
+    {
+      date: "06.02.2021",
+      number: 3965876,
+      cost: "15600",
+      status: "Получен",
+      ordered: [
+        {
+          name: "Переходник Microusb Belkin USB-C",
+          articel: 1063462,
+          how: 1,
+          price: 1500,
+        },
+      ],
+    },
+  ],
 };
 export default data;

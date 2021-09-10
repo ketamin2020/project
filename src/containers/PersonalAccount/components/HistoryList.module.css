@@ -1,0 +1,28 @@
+.wrapper {
+  max-width: 840px;
+}
+.card__heading {
+  display: flex;
+  font-family: var(--PrimeFont);
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 150%;
+  color: #717171;
+  padding-left: 30px;
+}
+.card__heading_item {
+  width: 19%;
+}
+
+@media screen and (max-width: 920px) {
+  .card__heading_item:nth-child(2) {
+    display: none;
+  }
+  .card__heading {
+    display: flex;
+    justify-content: space-between;
+  }
+  .card__heading_item {
+    width: 26%;
+  }
+}

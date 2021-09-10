@@ -1,0 +1,41 @@
+.asideListItems {
+  width: 100%;
+  max-width: 343px;
+}
+
+.asideItem {
+  padding: 20px 0;
+  border-bottom: 1px solid #d5dadf;
+}
+.asideItem:last-child {
+  border: none;
+}
+
+.asideItem a {
+  font-family: var(--PrimeFont);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 170%;
+  color: #000000;
+}
+
+.historyLink::before,
+.selectedLink::before,
+.profileLink::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  background-image: url("../../../images/personalAccount/box.svg");
+}
+.historyLink::before {
+  background-image: url("../../../images/personalAccount/box.svg");
+}
+.selectedLink::before {
+  height: 14px;
+  background-image: url("../../../images/personalAccount/heart.svg");
+}
+.profileLink::before {
+  background-image: url("../../../images/personalAccount/user.svg");
+}

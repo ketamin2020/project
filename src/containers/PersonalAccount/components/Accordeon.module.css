@@ -4,12 +4,15 @@
   flex-direction: column;
   padding: 15px;
   width: 100%;
-  background: #f5f5f5;
-  border-radius: 4px;
+  background: white;
+  border-bottom: 1px solid #c9d0d7;
+}
+.card__section:first-child {
+  border-top: 1px solid #c9d0d7;
 }
 
 .card {
-  background-color: #f5f5f5;
+  background-color: white;
   color: #444;
   cursor: pointer;
   padding: 10px 0;
@@ -23,7 +26,7 @@
 
 .card:hover,
 .active {
-  background-color: #f5f5f5;
+  background-color: white;
   border-radius: 10px;
 }
 
@@ -34,27 +37,52 @@
   font-size: 18px;
   color: black;
   text-align: left;
-  background-color: #f5f5f5;
+  background-color: white;
 }
 
 .card__icon {
   margin-left: auto;
   transition: transform 0.6s ease;
 }
-.card__item {
-  display: flex;
-  background-color: red;
+.card__list {
+  width: 100%;
+  text-align: left;
 }
-.item__text {
-  color: red;
+.card__item,
+.item__ordered {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.list__ordered {
+  padding-top: 20px;
+}
+.item__text,
+.item__heading {
+  width: 20%;
+  align-items: center;
 }
 
 .rotate {
   transform: rotate(90deg);
 }
+.item__text {
+  font-family: var(--PrimeFont);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  color: #000000;
+}
+.item__heading {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 150%;
+  color: #b6bec6;
+}
 
 .card__content {
-  background-color: #f5f5f5;
+  background-color: white;
   overflow: hidden;
   transition: max-height 0.6s ease;
   font-family: var(--PrimeFont);
@@ -64,5 +92,8 @@
   color: #000000;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 900px) {
+  .visible {
+    display: none;
+  }
 }
